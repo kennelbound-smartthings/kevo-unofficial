@@ -3,7 +3,7 @@ include 'asynchttp_v1'
 
 metadata {
     // Automatically generated. Make future change here.
-    definition(name: "KB: Kevo Plus Lock", namespace: "kennelbound-smartthings/kevolock", author: "Kennelbound") {
+    definition(name: "Kevo Unofficial", namespace: "kennelbound-smartthings/kevolock", author: "Kennelbound") {
         capability "Actuator"
         capability "Sensor"
         capability "Health Check"
