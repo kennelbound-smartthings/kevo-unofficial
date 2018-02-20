@@ -16,6 +16,3 @@ Class SmartThingsBuildHelper = new GroovyClassLoader(getClass().getClassLoader()
 
 // Method Signature for the compile is static void compile(main_file_name, String source_path, String output_path)
 SmartThingsBuildHelper.compile('devicehandler', './src', 'devicetypes/kennelbound-smartthings/kevolock/kevo-unofficial.src/kevo-unofficial.groovy')
-
-// Supports multiple outputs so you can build all the components of your project at the same time, with shared libs
-SmartThingsBuildHelper.compile('smartapp', './src', 'smartapps/kennelbound-smartthings/kevolock/kevo-unofficial.src/kevo-unofficial.groovy')
